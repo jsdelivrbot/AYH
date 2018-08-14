@@ -85,12 +85,20 @@ body {
 #heroes-all {
 	display: flex;
 	flex-flow: row wrap;
+	/* width: 90vw;
+	justify-content: space-evenly;
+	margin: auto; */
 	place-content: center;
 }
 
 .heroImg {
 	margin: 0.5rem;
-	width: 12%;
+	width: 17%;
+	/* height: 68vh; */
 	object-fit: none;
 	overflow: hidden;
+}
+
+.heroImg img {
+	width: 100%;
 }
