@@ -81,3 +81,16 @@ body {
 	font-weight: 500;
 	color: #F0141E;
 }
+
+#heroes-all {
+	display: flex;
+	flex-flow: row wrap;
+	place-content: center;
+}
+
+.heroImg {
+	margin: 0.5rem;
+	width: 12%;
+	object-fit: none;
+	overflow: hidden;
+}
