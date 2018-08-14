@@ -1,7 +1,7 @@
-const heroesAll = (hero) => {
+export const createHeroes = (heroes) => {
   return `
-    <div id="${hero.id}" class="heroeImg">
-			<img src="${hero.images.md}" alt="${hero.images.name}">
+    <div id="${heroes.id}" class="heroImg">
+			<img src="${heroes.images.md}" alt="${heroes.images.name}">
 		</div>
   `
 }
