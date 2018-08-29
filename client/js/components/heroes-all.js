@@ -1,6 +1,6 @@
-export const createHeroes = (heroes) => {
+export const createHeroes = (heroes, index) => {
   return `
-    <div id="${heroes.id}" class="heroImg my-hero">
+    <div id="${index}" class="heroImg my-hero" onclick="getID(${heroes.id})">
 			<img src="${heroes.images.md}" alt="${heroes.name}">
 		</div>
   `
